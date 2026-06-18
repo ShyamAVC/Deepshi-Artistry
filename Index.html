@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🦋 Deepshi Artistry</title>
+<link rel="icon" href="logo.jpg">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#fff8f5;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#ff9a9e,#fad0c4,#ffd6a5);
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:white;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:20px;
+font-weight:500;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:50px 20px;
+background:linear-gradient(to right,#ffe0ec,#fff3d6);
+}
+
+.hero-content{
+max-width:700px;
+}
+
+.hero img{
+width:180px;
+height:180px;
+border-radius:50%;
+border:6px solid white;
+object-fit:cover;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+margin-bottom:20px;
+}
+
+.hero h1{
+font-size:55px;
+color:#ff5f8f;
+}
+
+.hero p{
+font-size:18px;
+margin:20px 0;
+line-height:1.8;
+}
+
+.btn{
+display:inline-block;
+padding:12px 28px;
+background:#ff5f8f;
+color:white;
+text-decoration:none;
+border-radius:30px;
+margin:10px;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+background:#ff3f78;
+}
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+color:#ff5f8f;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:20px;
+}
+
+.about-text p{
+line-height:1.8;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+transition:.3s;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#ff5f8f;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:300px;
+object-fit:cover;
+border-radius:15px;
+transition:.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+.contact{
+text-align:center;
+background:#fff0f5;
+border-radius:20px;
+padding:50px;
+}
+
+.contact a{
+text-decoration:none;
+color:#ff5f8f;
+font-weight:600;
+}
+
+footer{
+background:#ff5f8f;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+width:60px;
+height:60px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:38px;
+}
+
+.about{
+grid-template-columns:1fr;
+}
+
+nav{
+display:none;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">🦋Deepshi Artistry</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-content">
+
+<img src="logo.jpg" alt="Deepshi Artistry">
+
+<h1>Deepshi Artistry</h1>
+
+<p>
+Turning memories into beautiful art through portraits,
+mehendi, wall paintings, embroidery and creative DIY projects.
+</p>
+
+<a href="#portfolio" class="btn">View Portfolio</a>
+
+<a href="https://www.instagram.com/deepshi_artistry/"
+target="_blank" class="btn">
+Instagram
+</a>
+
+</div>
+</section>
+
+<section id="about">
+
+<h2 class="section-title">About Deepshika</h2>
+
+<div class="about">
+
+<img src="profile.jpg" alt="Artist">
+
+<div class="about-text">
+
+<p>
+Hi, I'm Deepshika, the artist behind Deepshi Artistry.
+I create meaningful handmade artworks including realistic portraits,
+elegant mehendi designs, colorful wall art, embroidery works and DIY crafts.
+Every creation is designed with passion and attention to detail.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="section-title">Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Portrait Art</h3>
+<p>Custom pencil sketches, couple portraits and family artworks.</p>
+</div>
+
+<div class="card">
+<h3>Mehendi Design</h3>
+<p>Bridal, engagement and festival mehendi designs.</p>
+</div>
+
+<div class="card">
+<h3>Wall Art</h3>
+<p>Creative murals and decorative wall paintings.</p>
+</div>
+
+<div class="card">
+<h3>Embroidery</h3>
+<p>Handmade embroidery and personalized gifts.</p>
+</div>
+
+<div class="card">
+<h3>DIY Crafts</h3>
+<p>Customized handmade gifts and decorations.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="portfolio">
+
+<h2 class="section-title">Portfolio</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f">
+<img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f">
+<img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b">
+<img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97">
+<img src="https://images.unsplash.com/photo-1493612276216-ee3925520721">
+<img src="https://images.unsplash.com/photo-1455390582262-044cdead277a">
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="contact">
+
+<h3>Let's Create Something Beautiful Together ✨</h3>
+
+<br>
+
+<p><strong>Artist:</strong> Deepshika</p>
+
+<p><strong>Business:</strong> Deepshi Artistry</p>
+
+<p><strong>Location:</strong> Mayiladuthurai, Tamil Nadu</p>
+
+<br>
+
+<p>
+Instagram:
+<a href="https://www.instagram.com/deepshi_artistry/"
+target="_blank">
+@deepshi_artistry
+</a>
+</p>
+
+</div>
+
+</section>
+
+<footer>
+© 2025 Deepshi Artistry | Designed with ❤️
+</footer>
+
+<a href="https://www.instagram.com/deepshi_artistry/"
+target="_blank"
+class="whatsapp">
+📸
+</a>
+
+<script>
+
+window.addEventListener("scroll",()=>{
+
+const cards=document.querySelectorAll(".card");
+
+cards.forEach(card=>{
+
+let position=card.getBoundingClientRect().top;
+
+if(position<window.innerHeight-100){
+card.style.opacity="1";
+card.style.transform="translateY(0)";
+}
+
+});
+
+});
+
+document.querySelectorAll('.card').forEach(card=>{
+card.style.opacity="0";
+card.style.transform="translateY(50px)";
+card.style.transition="0.6s";
+});
+
+</script>
+
+</body>
+</html>
